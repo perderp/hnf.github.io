@@ -1,0 +1,260 @@
+
+
+//iPad in portrait & landscape
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+    //Navigation
+    .nav{
+
+    }
+    
+    .sidebar{
+        
+    }
+    
+
+    //Main Visual
+    .main-visual{
+
+    }
+
+    //Vision
+    .vision{
+
+    }
+
+    //Service
+    .service{
+
+    }
+
+    //Company Profile
+    .company-profile{
+
+    }
+
+    //Contact Us
+    .contact-us{
+
+    }
+
+    //Footer
+    .footer{
+        
+    }
+
+}
+
+//iPhone X in portrait & landscape
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) { 
+    //Navigation
+    .nav{
+
+    }
+
+    .sidebar{
+
+    }
+    
+    //Main Visual
+    .main-visual{
+
+    }
+
+    //Vision
+    .vision{
+
+    }
+
+    //Service
+    .service{
+
+    }
+
+    //Company Profile
+    .company-profile{
+
+    }
+
+    //Contact Us
+    .contact-us{
+
+    }
+
+    //Footer
+    .footer{
+        
+    }
+
+}
+
+//iPhone 6, 7, & 8 in portrait & landscape
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+    //Navigation
+    .sidebar{
+        position: fixed;
+        width: 60%;
+        height: 100vh;
+        top: 0;
+        right: -60%;
+        z-index: 1031;
+        background-color: #028482;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 650ms ease-in-out;
+        
+        .close-sidebar{
+            position: absolute;
+            top: 1rem;
+            right: 2rem;
+            font-size: 2rem;
+            color: #FFFFFF;
+        }
+        ul{
+            li{
+                list-style-type: none;
+                padding: 15px 0;
+                a{
+                    text-decoration: none;
+                    color: #FFFFFF;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+    .sidebar.active{
+        right: 0;
+    }
+    .nav{
+
+    }
+
+    .sidebar{
+
+    }
+    
+    //Main Visual
+    .main-visual{
+
+    }
+
+    //Vision
+    .vision{
+
+    }
+
+    //Service
+    .service{
+
+    }
+
+    //Company Profile
+    .company-profile{
+
+    }
+
+    //Contact Us
+    .contact-us{
+
+    }
+
+    //Footer
+    .footer{
+        
+    }
+}
+
+//iPhone 6, 7, & 8 Plus in portrait & landscape
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) { 
+    //Navigation
+    .nav{
+
+    }
+
+    .sidebar{
+
+    }
+    
+    //Main Visual
+    .main-visual{
+
+    }
+
+    //Vision
+    .vision{
+
+    }
+
+    //Service
+    .service{
+
+    }
+
+    //Company Profile
+    .company-profile{
+
+    }
+
+    //Contact Us
+    .contact-us{
+
+    }
+
+    //Footer
+    .footer{
+        
+    }
+}
+
+//iPhone 5 & 5S in portrait & landscape
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+    //Navigation
+    .nav{
+
+    }
+
+    .sidebar{
+
+    }
+    
+    //Main Visual
+    .main-visual{
+
+    }
+
+    //Vision
+    .vision{
+
+    }
+
+    //Service
+    .service{
+
+    }
+
+    //Company Profile
+    .company-profile{
+
+    }
+
+    //Contact Us
+    .contact-us{
+
+    }
+
+    //Footer
+    .footer{
+        
+    }
+}

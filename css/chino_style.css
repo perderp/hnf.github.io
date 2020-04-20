@@ -1,0 +1,262 @@
+body {
+  background-color: #f7f7f7;
+}
+
+sidebar {
+  display: none;
+}
+
+.cline {
+  background: url(../assets/images/LineUp.png);
+  color: white;
+}
+
+.btn-contact {
+  margin-bottom: 30px;
+  background-color: #5A5958;
+  border: none;
+  color: #FA9649;
+  cursor: pointer;
+  position: relative;
+}
+
+.top-section {
+  background-attachment: fixed;
+  width: 100%;
+  height: 960px;
+  background: -webkit-gradient(linear, left top, left bottom, to(rgba(90, 89, 88, 0.7))), url("../assets/images/mv_bg.png") center no-repeat;
+  background: linear-gradient(rgba(90, 89, 88, 0.7) 100%), url("../assets/images/mv_bg.png") center no-repeat;
+  background-size: cover;
+  background-position: 0% -30%;
+  color: #f7f7f7;
+  position: relative;
+}
+
+.top-section .container {
+  position: relative;
+  -webkit-transform: translateY(5%);
+          transform: translateY(5%);
+  padding: 50px;
+}
+
+.top-section .container .row {
+  margin-bottom: 100px;
+  padding: 50px 0;
+}
+
+.top-section .container .row .col-lg-12 {
+  padding-top: 230px;
+}
+
+.top-section .container .row .col-lg-12 .titol h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #FA9649;
+}
+
+.top-section .container .row .col-lg-12 .disc {
+  padding-top: 20px;
+}
+
+.top-section .container .row .col-lg-12 .disc h3 {
+  font-size: 24px;
+  color: #FA9649;
+}
+
+.services {
+  background: url("../assets/images/servicespagealt-bg.png") bottom center no-repeat;
+  background-size: 100%;
+  padding-top: 60px;
+}
+
+.services .container .Feature-title {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.services .container .row .col-lg-4 .serviceBox {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.services .container .row .col-lg-4 .serviceBox .serviceIcon {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  background: #FA9649;
+  font-size: 50px;
+  color: white;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.services .container .row .col-lg-4 .serviceBox .serviceIcon::before {
+  content: "";
+  border: 4px solid white;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  opacity: 1;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.services .container .row .col-lg-4 .serviceBox .serviceIcon::after {
+  content: "";
+  border-top: 25px solid #FA9649;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  position: absolute;
+  bottom: -22px;
+  left: 40%;
+}
+
+.services .container .row .col-lg-4 .serviceBox .serviceContent {
+  padding: 25px 20px;
+  background: #FA9649;
+  border-radius: 15px;
+  color: white;
+  position: relative;
+}
+
+.services .container .row .col-lg-4 .serviceBox .serviceContent::before {
+  content: "";
+  border: 4px solid white;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.services .container .row .col-lg-4 .serviceBox:hover .serviceIcon::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+}
+
+.services .container .row .col-lg-4 .serviceBox:hover .serviceContent::before {
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  opacity: 1;
+}
+
+.mapp {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: -webkit-gradient(linear, left top, left bottom, to(rgba(90, 89, 88, 0.3)));
+  background: linear-gradient(rgba(90, 89, 88, 0.3) 100%);
+}
+
+.mapp .ContactUs .C-form .container .row {
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.mapp .ContactUs .C-form .container .row .colored {
+  background: #FA9649;
+  border: 8px solid #FA9649;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.mapp .ContactUs .C-form .container .row .lefts {
+  background: transparent;
+  border: 8px solid #FA9649;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.mapp .ContactUs .C-form .container .row .col-lg-6 {
+  color: white;
+  padding-top: 75px;
+}
+
+.mapp .ContactUs .C-form .container .row .col-lg-6 .oof {
+  padding-bottom: 20px;
+}
+
+.mapp .ContactUs .C-form .container .row .col-lg-6 .num {
+  padding-bottom: 50px;
+  border-bottom: 2px solid rgba(247, 247, 247, 0.6);
+}
+
+.mapp .ContactUs .C-form .container .row .col-lg-6 .icon {
+  float: left;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.mapp .ContactUs .C-form .container .row .col-lg-6 .infos a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.mapp .ContactUs .C-form .container .row .col-lg-6 input[type=text], .mapp .ContactUs .C-form .container .row .col-lg-6 input[type=email] {
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px 0px;
+  resize: none;
+  height: 40px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mapp .ContactUs .C-form .container .row .col-lg-6 input[type=submit] {
+  border-radius: 5px;
+  padding: 8px 25px;
+  float: right;
+  margin: 10px 0px;
+  resize: none;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mapp .ContactUs .C-form .container .row .col-lg-6 textarea {
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+  resize: none;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mapp .ContactUs .C-form .container .row .col-lg-6 .pads {
+  padding-top: 20px;
+}
+
+.mapp .ContactUs .C-form .container .row .col-lg-6 .iagree {
+  padding-bottom: 20px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.mapp .ContactUs .C-form .container .row .col-lg-6 .iagree .big {
+  margin-top: 5px;
+  width: 15px;
+  height: 15px;
+}
+
+.mapp .ContactUs .C-form .container .row .col-lg-6 .iagree a {
+  color: #05dfd7;
+}
+/*# sourceMappingURL=chino_style.css.map */
