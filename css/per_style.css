@@ -57,6 +57,11 @@
   color: #e6c7c7;
 }
 
+.navbar .container .collapse .nav_ul .nav_li .nav_a:active {
+  font-weight: 700;
+  color: #FF9200;
+}
+
 .navbar .container .collapse .nav_ul .nav_li .nav-orange {
   background-color: #FF9200;
   border-radius: 31px;
@@ -189,5 +194,18 @@
   text-align: center;
   padding: 10px 0;
   color: #FFF;
+}
+
+.footer .footer-copyright .footer_span {
+  padding-left: 5%;
+}
+
+.footer .footer-copyright .footer_span a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.footer .footer-copyright .footer_span a:hover {
+  color: #FF9200;
 }
 /*# sourceMappingURL=per_style.css.map */

@@ -87,9 +87,17 @@ and (-webkit-device-pixel-ratio : 3) {
 
     //Footer
     .footer{
+        .footer-copyright{
+            font-size: 17px;
+        }
+    }
+    // privacy Policy2 
+    .privacy_policy2{
+        .display-1{
+            font-size:4rem;
+        }
         
     }
-
 }
 
 //iPhone 6, 7, & 8 in portrait & landscape

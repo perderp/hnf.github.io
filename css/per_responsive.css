@@ -1,3 +1,12 @@
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .footer .footer-copyright {
+    font-size: 17px;
+  }
+  .privacy_policy2 .display-1 {
+    font-size: 4rem;
+  }
+}
+
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
   .sidebar {
     position: fixed;
