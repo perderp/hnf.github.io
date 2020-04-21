@@ -15,6 +15,8 @@
 
     <link media="all" type="text/css" rel="stylesheet" href="./css/animate.min.css">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!--Captcha Script-->
     <script src="https://www.google.com/recaptcha/api.js"></script>
     
@@ -26,7 +28,7 @@
 
   <nav class="navbar navbar-expand-sm fixed-top navbar-light  " id="navbar">
     <div class="container">
-        <a class="navbar-brand" href="#"> <img src="./assets/images/hnhp_logo.png" alt="HNHP" width="100rem"> </a>
+        <a class="navbar-brand" href="#"> <img src="./assets/images/hnhp_logo.png" alt="HNHP" width="50rem"> </a>
         <button class="navbar-toggler n_btn" type="button" data-toggle="collapse" data-target="#navbar1">
             <span >☰</span>
         </button>
@@ -77,7 +79,7 @@ you can prevent them in advance.
         
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12"><img src="./assets/images/luffy.png" alt="" class=v_img> </div>
+                <div class="col-lg-6 col-md-6 col-sm-12" data-aos="flip-up" data-aos-easing="linear"><img src="./assets/images/luffy.png"  alt="" class=v_img> </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 text-center" >
                 
                     <p class="v_p"><sup><b>#3</b></sup>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum congue tortor et convallis feugiat. 
@@ -104,7 +106,7 @@ you can prevent them in advance.
         </div>
         <div class="row">
             
-            <div class="col-lg-4 col-md-6 col-sm12">
+            <div class="col-lg-4 col-md-6 col-sm12" data-aos="flip-left"  data-aos-duration="1000">
                 <div class="serviceBox">
                     <div class="serviceIcon">
                         <i class="fa fa-star"></i>
@@ -121,7 +123,7 @@ you can prevent them in advance.
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm12">
+            <div class="col-lg-4 col-md-6 col-sm12" data-aos="flip-left"  data-aos-duration="1000">
                 <div class="serviceBox">
                     <div class="serviceIcon">
                         <i class="fa fa-heart"></i>
@@ -138,7 +140,7 @@ you can prevent them in advance.
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm12">
+            <div class="col-lg-4 col-md-6 col-sm12" data-aos="flip-left"  data-aos-duration="1000">
                 <div class="serviceBox">
                     <div class="serviceIcon">
                         <i class="fa fa-phone"></i>
@@ -155,7 +157,7 @@ you can prevent them in advance.
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm12">
+            <div class="col-lg-4 col-md-6 col-sm12" data-aos="flip-right"  data-aos-duration="1000">
                 <div class="serviceBox">
                     <div class="serviceIcon">
                         <i class="fa fa-star"></i>
@@ -172,7 +174,7 @@ you can prevent them in advance.
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm12">
+            <div class="col-lg-4 col-md-6 col-sm12" data-aos="flip-right"  data-aos-duration="1000">
                 <div class="serviceBox">
                     <div class="serviceIcon">
                         <i class="fa fa-heart"></i>
@@ -189,7 +191,7 @@ you can prevent them in advance.
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 col-sm12">
+            <div class="col-lg-4 col-md-6 col-sm12" data-aos="flip-right"  data-aos-duration="1000">
                 <div class="serviceBox">
                     <div class="serviceIcon">
                         <i class="fa fa-phone"></i>
@@ -368,8 +370,10 @@ you can prevent them in advance.
     <script src="https://kit.fontawesome.com/23f8ce45d9.js" crossorigin="anonymous"></script>
     <script src="./js/main.js"></script>
     <script src="./js/wow.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         new WOW().init();
+        AOS.init();
     </script>
     <!-- Adobe Font Script -->
     <script>    
