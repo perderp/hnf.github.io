@@ -36,7 +36,7 @@
     .container{
         text-align:center;
         .navbar-toggler{
-            border: 1px solid #FFFFFF;
+            border: 1px solid #FF9200;
             span{
                 color: #707070;
             }
@@ -53,7 +53,12 @@
                         &:hover{
                             color: #e6c7c7;
                         }
+                        &:active{
+                            font-weight: 700;
+                            color:#FF9200;
+                        }
                     }
+                    
                     .nav-orange{
                         background-color:#FF9200;
                         border-radius: 31px;
@@ -109,7 +114,6 @@
 //Company Profile
 .company-profile{
     position:relative;
-    
     .container{
         .cp_r1{
             margin-top:5%;
@@ -131,7 +135,6 @@
                 z-index:1;
             }
         }
-
         .cp_r2{
             padding-top: 40px;
             text-align:justify;
@@ -140,24 +143,16 @@
                 width:333px;
             }
             .cp_p{
-
             }
         }
-
         .cp_r3{
             padding-top: 40px;
             padding-bottom: 40px;
+            .cp_p2{
+                font-weight: 700;
+            }
         }
-
-        
     }
-    .LineDown{
-        background: url(../assets/images/LineDown.png);
-        width: 100%;
-        height: 170px;
-    
-    }
-}
 
 //Contact Us
 .contact-us{
@@ -199,5 +194,16 @@
         text-align:center;
         padding:10px 0;
         color:#FFF;
+        .footer_span{
+            padding-left:5%;
+            a{
+                text-decoration:none;
+                color:#FFF;
+
+                &:hover{
+                    color:#FF9200;
+                }
+            }
+        }
     }
 }
