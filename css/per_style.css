@@ -1,7 +1,6 @@
 .scrolltop {
   position: fixed;
-  bottom: 0px;
-  right: 0px;
+  bottom: 0;
   z-index: 9999;
   border-bottom: solid 3px #FF9200;
   width: 100%;
@@ -36,7 +35,7 @@
 }
 
 .navbar .container .navbar-toggler {
-  border: 1px solid #FFFFFF;
+  border: 1px solid #FF9200;
 }
 
 .navbar .container .navbar-toggler span {
@@ -153,10 +152,8 @@
   padding-bottom: 40px;
 }
 
-.company-profile .LineDown {
-  background: url(../assets/images/LineDown.png);
-  width: 100%;
-  height: 170px;
+.company-profile .container .cp_r3 .cp_p2 {
+  font-weight: 700;
 }
 
 .contact-us {
