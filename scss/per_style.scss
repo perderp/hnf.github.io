@@ -2,9 +2,12 @@
 //     font-family:hnf;
 //     url:();
 // }
-
+html {
+    scroll-behavior: smooth;
+  }
 //SCROLL TO TOP
 .scrolltop{
+    overflow-x: hidden ;
     position: fixed;
     bottom: 0;
     z-index: 9999;
@@ -37,7 +40,7 @@
         .navbar-toggler{
             border: 1px solid #FF9200;
             span{
-                color: #707070;
+                color: #FF9200;
             }
         }
         .collapse{
@@ -139,6 +142,7 @@
             text-align:justify;
             align-items: center;
             .cp_img{
+                margin-left:25%;
                 width:333px;
             }
             .cp_p{
@@ -156,6 +160,7 @@
 }
 //Contact Us
 .contact-us{
+    width:100%;
     margin:20px 0;
     .container{
         border:8px solid #FA9649;

@@ -1,4 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .scrolltop {
+  overflow-x: hidden;
   position: fixed;
   bottom: 0;
   z-index: 9999;
@@ -39,7 +44,7 @@
 }
 
 .navbar .container .navbar-toggler span {
-  color: #707070;
+  color: #FF9200;
 }
 
 .navbar .container .collapse .nav_ul .nav_li {
@@ -144,6 +149,7 @@
 }
 
 .company-profile .container .cp_r2 .cp_img {
+  margin-left: 25%;
   width: 333px;
 }
 
@@ -158,6 +164,7 @@
 }
 
 .contact-us {
+  width: 100%;
   margin: 20px 0;
 }
 
