@@ -1,4 +1,8 @@
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .company-profile .container .cp_p2 {
+    font-weight: 500;
+    font-size: 12px;
+  }
   .mapp {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -93,44 +97,193 @@
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
-  .sidebar {
-    position: fixed;
-    width: 60%;
-    height: 100vh;
-    top: 0;
-    right: -60%;
-    z-index: 1031;
-    background-color: #028482;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-transition: all 650ms ease-in-out;
-    transition: all 650ms ease-in-out;
+  .mapp {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: -webkit-gradient(linear, left top, left bottom, to(rgba(90, 89, 88, 0.3)));
+    background: linear-gradient(rgba(90, 89, 88, 0.3) 100%);
   }
-  .sidebar .close-sidebar {
-    position: absolute;
-    top: 1rem;
-    right: 2rem;
-    font-size: 2rem;
+  .mapp .ContactUs .C-form .container .row {
+    padding: 0 15px;
+  }
+  .mapp .ContactUs .C-form .container .row .colored {
+    background: #FA9649;
+    border: 8px solid #FA9649;
+    border-radius: 0px;
+  }
+  .mapp .ContactUs .C-form .container .row .lefts {
+    background: transparent;
+    border: 8px solid #FA9649;
+    border-radius: 0px;
+  }
+  .mapp .ContactUs .C-form .container .row .col-lg-6 {
+    color: white;
+    padding-top: 75px;
+  }
+  .mapp .ContactUs .C-form .container .row .col-lg-6 .oof {
+    padding-bottom: 20px;
+  }
+  .mapp .ContactUs .C-form .container .row .col-lg-6 .num {
+    padding-bottom: 50px;
+    border-bottom: 2px solid rgba(247, 247, 247, 0.6);
+  }
+  .mapp .ContactUs .C-form .container .row .col-lg-6 .icon {
+    float: left;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .mapp .ContactUs .C-form .container .row .col-lg-6 .infos a {
     color: #FFFFFF;
-  }
-  .sidebar ul li {
-    list-style-type: none;
-    padding: 15px 0;
-  }
-  .sidebar ul li a {
     text-decoration: none;
-    color: #FFFFFF;
-    font-size: 1.2rem;
   }
-  .sidebar.active {
-    right: 0;
+  .mapp .ContactUs .C-form .container .row .col-lg-6 input[type=text], .mapp .ContactUs .C-form .container .row .col-lg-6 input[type=email] {
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0px;
+    resize: none;
+    height: 40px;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .mapp .ContactUs .C-form .container .row .col-lg-6 input[type=submit] {
+    border-radius: 5px;
+    padding: 8px 25px;
+    float: right;
+    margin: 10px 0px;
+    resize: none;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .mapp .ContactUs .C-form .container .row .col-lg-6 textarea {
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    resize: none;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .mapp .ContactUs .C-form .container .row .col-lg-6 .pads {
+    padding-top: 20px;
+  }
+  .mapp .ContactUs .C-form .container .row .col-lg-6 .iagree {
+    padding-bottom: 20px;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .mapp .ContactUs .C-form .container .row .col-lg-6 .iagree .big {
+    margin-top: 5px;
+    width: 15px;
+    height: 15px;
+  }
+  .mapp .ContactUs .C-form .container .row .col-lg-6 .iagree a {
+    color: #05dfd7;
+  }
+  .privacy_policy .container, .privacy_policy2 .container {
+    margin-top: 10%;
+  }
+  .privacy_policy .container .display-1, .privacy_policy2 .container .display-1 {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
+  .mapp {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: -webkit-gradient(linear, left top, left bottom, to(rgba(90, 89, 88, 0.3)));
+    background: linear-gradient(rgba(90, 89, 88, 0.3) 100%);
+  }
+  .mapp .ContactUs .C-form .container .row {
+    padding: 0 15px;
+  }
+  .mapp .ContactUs .C-form .container .row .colored {
+    background: #FA9649;
+    border: 8px solid #FA9649;
+    border-radius: 0px;
+  }
+  .mapp .ContactUs .C-form .container .row .lefts {
+    background: transparent;
+    border: 8px solid #FA9649;
+    border-radius: 0px;
+  }
+  .mapp .ContactUs .C-form .container .row .col-lg-6 {
+    color: white;
+    padding-top: 75px;
+  }
+  .mapp .ContactUs .C-form .container .row .col-lg-6 .oof {
+    padding-bottom: 20px;
+  }
+  .mapp .ContactUs .C-form .container .row .col-lg-6 .num {
+    padding-bottom: 50px;
+    border-bottom: 2px solid rgba(247, 247, 247, 0.6);
+  }
+  .mapp .ContactUs .C-form .container .row .col-lg-6 .icon {
+    float: left;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .mapp .ContactUs .C-form .container .row .col-lg-6 .infos a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  .mapp .ContactUs .C-form .container .row .col-lg-6 input[type=text], .mapp .ContactUs .C-form .container .row .col-lg-6 input[type=email] {
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0px;
+    resize: none;
+    height: 40px;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .mapp .ContactUs .C-form .container .row .col-lg-6 input[type=submit] {
+    border-radius: 5px;
+    padding: 8px 25px;
+    float: right;
+    margin: 10px 0px;
+    resize: none;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .mapp .ContactUs .C-form .container .row .col-lg-6 textarea {
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    resize: none;
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .mapp .ContactUs .C-form .container .row .col-lg-6 .pads {
+    padding-top: 20px;
+  }
+  .mapp .ContactUs .C-form .container .row .col-lg-6 .iagree {
+    padding-bottom: 20px;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .mapp .ContactUs .C-form .container .row .col-lg-6 .iagree .big {
+    margin-top: 5px;
+    width: 15px;
+    height: 15px;
+  }
+  .mapp .ContactUs .C-form .container .row .col-lg-6 .iagree a {
+    color: #05dfd7;
+  }
+  .privacy_policy .container, .privacy_policy2 .container {
+    margin-top: 10%;
+  }
+  .privacy_policy .container .display-1, .privacy_policy2 .container .display-1 {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .privacy_policy .container, .privacy_policy2 .container {
+    margin-top: 10%;
+  }
+  .privacy_policy .container .display-1, .privacy_policy2 .container .display-1 {
+    font-size: 3rem;
   }
 }
 /*# sourceMappingURL=per_responsive.css.map */
