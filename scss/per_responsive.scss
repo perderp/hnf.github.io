@@ -1,4 +1,107 @@
+// XS-320px DEVICE
+@media only screen 
+and (min-device-width: 320px)
+and (max-device-width: 375px){
+    //Contact Us
+    .mapp{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background:linear-gradient(rgba(90, 89, 88, .3) 100%);
+        .ContactUs{
+            .C-form{
+                .container{
+                    .row{
+                        padding: 0;
+                        .colored{
+                            background: #FA9649;
+                            border: 8px solid #FA9649;
+                            border-radius:0px;
+                        }
+                        .lefts{
+                            background: transparent;
+                        border: 8px solid #FA9649;
+                        border-radius:0px;
+                        }
+                        .col-lg-6{
+                        color: white;
+                        padding-top: 75px;
+                        
+                        .oof{
+                            padding-bottom: 20px;
+                        }
+                        .num{
+                            padding-bottom: 50px;
+                            border-bottom: 2px solid rgba(247, 247, 247, 0.6);
+                        }
+                        .icon{
+                            float: left;
+                            padding-right: 40px;
+                            padding-left: 40px;
+                        }
+                        .infos{
+                            a{
+                                color: #FFFFFF;
+                                text-decoration: none;
+                            }
+                        }
+                        
+                        input[type=text] ,input[type=email]{
+                            width: 100%;
+                            border-radius: 5px;
+                            padding: 5px;
+                            margin: 10px 0px;
+                            resize: none;
+                            height: 40px;
+                            box-shadow: 0 4px 8px 0 
+                            rgba(0, 0, 0, 0.2),
+                            0 6px 20px 0 
+                            rgba(0, 0, 0, 0.19);
+                            }
+                        input[type=submit]{
+                            border-radius: 5px;
+                            padding: 8px 25px;
+                            float: right;
+                            margin: 10px 0px;
+                            resize: none;
+                            box-shadow: 0 4px 8px 0 
+                          rgba(0, 0, 0, 0.2),
+                            0 6px 20px 0 
+                          rgba(0, 0, 0, 0.19);
+                            }
+                        textarea{
+                            width: 100%;
+                            border-radius: 5px;
+                            padding: 5px;
+                            resize: none;
+                            box-shadow: 0 4px 8px 0 
+                          rgba(0, 0, 0, 0.2),
+                            0 6px 20px 0 
+                          rgba(0, 0, 0, 0.19);
+                        }
+                        .pads{
+                            padding-top: 20px;
+                        }
+                        .iagree{
+                            padding-bottom:20px;
+                            .big{
+                                margin-top: 5px;
+                                width: 15px;
+                                height: 15px;
+                            }
+                            font-size: 13px;
+                            font-weight: 700;
+                            a{
+                                color: #05dfd7;
+                            }
+                        }
+                        }
+                    }
+                }
+            }
+        }
+    }
 
+}
 
 //iPad in portrait & landscape
 @media only screen 
@@ -84,6 +187,17 @@ and (-webkit-device-pixel-ratio : 3) {
             .cp_p2{
                 font-weight:500;
                 font-size:12px;
+            }
+            .cp_r2{
+                padding-top: 40px;
+                text-align:justify;
+                align-items: center;
+                .cp_img{
+                    margin:0;
+                    width:333px;
+                }
+                .cp_p{
+                }
             }
         }
     }
