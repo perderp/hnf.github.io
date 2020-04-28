@@ -62,12 +62,11 @@ sidebar {
 }
 
 .services {
-  background: url("../assets/images/servicespagealt-bg.png") bottom center no-repeat;
-  background-size: 100%;
-  padding-top: 60px;
+  background: url("../assets/images/services_bg.png") center no-repeat;
+  padding: 4% 0;
 }
 
-.services .container .Feature-title {
+.services .container-fluid .Feature-title {
   text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -77,12 +76,21 @@ sidebar {
   padding-bottom: 50px;
 }
 
-.services .container .row .col-lg-4 .serviceBox {
-  text-align: center;
-  padding-bottom: 40px;
+.services .container-fluid .row {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
-.services .container .row .col-lg-4 .serviceBox .serviceIcon {
+.services .container-fluid .row .col-lg-4 .serviceBox {
+  text-align: center;
+  padding-bottom: 40px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.services .container-fluid .row .col-lg-4 .serviceBox .serviceIcon {
   display: inline-block;
   width: 120px;
   height: 120px;
@@ -95,7 +103,7 @@ sidebar {
   position: relative;
 }
 
-.services .container .row .col-lg-4 .serviceBox .serviceIcon::before {
+.services .container-fluid .row .col-lg-4 .serviceBox .serviceIcon::before {
   content: "";
   border: 4px solid white;
   border-radius: 50%;
@@ -109,25 +117,29 @@ sidebar {
   transition: all 0.3s ease 0s;
 }
 
-.services .container .row .col-lg-4 .serviceBox .serviceIcon::after {
+.services .container-fluid .row .col-lg-4 .serviceBox .serviceIcon::after {
   content: "";
-  border-top: 25px solid #FA9649;
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 25px solid #FA9649;
+  border-top: 15px solid transparent;
   position: absolute;
-  bottom: -22px;
-  left: 40%;
+  top: 43px;
+  right: -19px;
 }
 
-.services .container .row .col-lg-4 .serviceBox .serviceContent {
-  padding: 25px 20px;
+.services .container-fluid .row .col-lg-4 .serviceBox .serviceContent {
+  height: 100%;
+  width: auto;
+  padding: 18px 20px;
   background: #FA9649;
   border-radius: 15px;
   color: white;
   position: relative;
+  margin-left: 50px;
+  top: 21px;
 }
 
-.services .container .row .col-lg-4 .serviceBox .serviceContent::before {
+.services .container-fluid .row .col-lg-4 .serviceBox .serviceContent::before {
   content: "";
   border: 4px solid white;
   border-radius: 10px;
@@ -141,7 +153,7 @@ sidebar {
   transition: all 0.3s ease 0s;
 }
 
-.services .container .row .col-lg-4 .serviceBox:hover .serviceIcon::before {
+.services .container-fluid .row .col-lg-4 .serviceBox:hover .serviceIcon::before {
   top: 0;
   left: 0;
   right: 0;
@@ -149,7 +161,7 @@ sidebar {
   opacity: 0;
 }
 
-.services .container .row .col-lg-4 .serviceBox:hover .serviceContent::before {
+.services .container-fluid .row .col-lg-4 .serviceBox:hover .serviceContent::before {
   top: 10px;
   left: 10px;
   right: 10px;
@@ -160,8 +172,9 @@ sidebar {
 .mapp {
   padding-top: 40px;
   padding-bottom: 40px;
-  background: -webkit-gradient(linear, left top, left bottom, to(rgba(90, 89, 88, 0.3)));
-  background: linear-gradient(rgba(90, 89, 88, 0.3) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, to(rgba(90, 89, 88, 0.3))), url("../assets/images/business_landscape.jpg") center no-repeat;
+  background: linear-gradient(rgba(90, 89, 88, 0.3) 100%), url("../assets/images/business_landscape.jpg") center no-repeat;
+  background-size: cover;
 }
 
 .mapp .ContactUs .C-form .container .row {

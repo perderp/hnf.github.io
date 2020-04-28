@@ -177,17 +177,14 @@ and (-webkit-device-pixel-ratio : 3) {
     }
 
     //Service
-    .service{
-
+    .services{
+        background: none;
     }
 
     //Company Profile
     .company-profile{
         .container{
-            .cp_p2{
-                font-weight:500;
-                font-size:12px;
-            }
+            
             .cp_r2{
                 padding-top: 40px;
                 text-align:justify;
@@ -197,6 +194,12 @@ and (-webkit-device-pixel-ratio : 3) {
                     width:333px;
                 }
                 .cp_p{
+                }
+            }
+            .cp_r3{
+                .cp_p2{
+                    font-weight: 500;
+                    font-size:12px;
                 }
             }
         }
@@ -642,9 +645,28 @@ and (max-device-width : 568px) {
 
     //Company Profile
     .company-profile{
-
+        .container{
+            
+            .cp_r2{
+                padding-top: 40px;
+                text-align:justify;
+                align-items: center;
+                .cp_img{
+                    margin:0;
+                    width:100%;
+                }
+                .cp_p{
+                }
+            }
+            .cp_r3{
+                .cp_p2{
+                    font-weight: 500;
+                    font-size:12px;
+                }
+            }
+        }
     }
-
+    
     //Contact Us
     .contact-us{
 

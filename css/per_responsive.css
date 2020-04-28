@@ -84,9 +84,8 @@
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
-  .company-profile .container .cp_p2 {
-    font-weight: 500;
-    font-size: 12px;
+  .services {
+    background: none;
   }
   .company-profile .container .cp_r2 {
     padding-top: 40px;
@@ -98,6 +97,10 @@
   .company-profile .container .cp_r2 .cp_img {
     margin: 0;
     width: 333px;
+  }
+  .company-profile .container .cp_r3 .cp_p2 {
+    font-weight: 500;
+    font-size: 12px;
   }
   .mapp {
     padding-top: 40px;
@@ -375,6 +378,21 @@
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .company-profile .container .cp_r2 {
+    padding-top: 40px;
+    text-align: justify;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .company-profile .container .cp_r2 .cp_img {
+    margin: 0;
+    width: 100%;
+  }
+  .company-profile .container .cp_r3 .cp_p2 {
+    font-weight: 500;
+    font-size: 12px;
+  }
   .privacy_policy .container, .privacy_policy2 .container {
     margin-top: 10%;
   }

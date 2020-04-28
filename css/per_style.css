@@ -1,5 +1,7 @@
-html {
+@charset "UTF-8";
+html, body {
   scroll-behavior: smooth;
+  font-family: 'Montserrat', 'Mplus 1p', 'Hiragino Sans', 'Hiragino Kaku Gothic Pro', '游ゴシック' , '游ゴシック体' , YuGothic , 'Yu Gothic', 'ＭＳ ゴシック' , 'MS Gothic', sans-serif;
 }
 
 .scrolltop {
@@ -7,7 +9,7 @@ html {
   position: fixed;
   bottom: 0;
   z-index: 9999;
-  border-bottom: solid 3px #FF9200;
+  border-bottom: solid 3px #FA9649;
   width: 100%;
   margin: 0px;
 }
@@ -19,7 +21,7 @@ html {
   right: 0;
   padding: 10px 20px;
   text-decoration: none;
-  background-color: #FF9200;
+  background-color: #FA9649;
 }
 
 .scrolltop .scrolltotop i {
@@ -32,7 +34,7 @@ html {
 
 .navbar {
   text-decoration: none;
-  color: #000;
+  color: #FF9200;
 }
 
 .navbar .container {
@@ -40,11 +42,11 @@ html {
 }
 
 .navbar .container .navbar-toggler {
-  border: 1px solid #FF9200;
+  border: 1px solid #FA9649;
 }
 
 .navbar .container .navbar-toggler span {
-  color: #FF9200;
+  color: #FA9649;
 }
 
 .navbar .container .collapse .nav_ul .nav_li {
@@ -52,7 +54,7 @@ html {
 }
 
 .navbar .container .collapse .nav_ul .nav_li .nav_a {
-  color: #000;
+  color: #FA9649;
   -webkit-transition: all 450ms;
   transition: all 450ms;
 }
@@ -61,13 +63,8 @@ html {
   color: #e6c7c7;
 }
 
-.navbar .container .collapse .nav_ul .nav_li .nav_a:active {
-  font-weight: 700;
-  color: #FF9200;
-}
-
 .navbar .container .collapse .nav_ul .nav_li .nav-orange {
-  background-color: #FF9200;
+  background-color: #FA9649;
   border-radius: 31px;
   color: #FFF;
 }
@@ -88,8 +85,8 @@ html {
 }
 
 .vision {
-  background: url("../assets/images/vission_bg.png") center no-repeat;
-  padding: 23% 0px;
+  background: url("../assets/images/company_info_bg.png") center no-repeat;
+  padding: 14% 0px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -100,8 +97,8 @@ html {
 
 .vision .v_img {
   position: relative;
-  top: 31px;
-  right: -11px;
+  top: 45px;
+  right: -5px;
 }
 
 .vision .v_p {
@@ -154,12 +151,10 @@ html {
 }
 
 .company-profile .container .cp_r3 {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 40px 0;
 }
 
 .company-profile .container .cp_r3 .cp_p2 {
-  font-weight: 700;
   padding: 6px 0;
 }
 
