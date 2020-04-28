@@ -6,7 +6,8 @@ and (max-device-width: 375px){
     .mapp{
         padding-top: 40px;
         padding-bottom: 40px;
-        background:linear-gradient(rgba(90, 89, 88, .3) 100%);
+        background:linear-gradient(rgba(90, 89, 88, .3) 100%),url('../assets/images/business_landscape.jpg') center no-repeat ;
+        background-size:cover;
         .ContactUs{
             .C-form{
                 .container{
@@ -209,7 +210,8 @@ and (-webkit-device-pixel-ratio : 3) {
     .mapp{
         padding-top: 40px;
         padding-bottom: 40px;
-        background:linear-gradient(rgba(90, 89, 88, .3) 100%);
+        background:linear-gradient(rgba(90, 89, 88, .3) 100%),url('../assets/images/business_landscape.jpg') center no-repeat ;
+        background-size:cover;
         .ContactUs{
             .C-form{
                 .container{
@@ -358,7 +360,8 @@ and (max-device-width : 667px) {
     .mapp{
         padding-top: 40px;
         padding-bottom: 40px;
-        background:linear-gradient(rgba(90, 89, 88, .3) 100%);
+        background:linear-gradient(rgba(90, 89, 88, .3) 100%),url('../assets/images/business_landscape.jpg') center no-repeat ;
+        background-size:cover;
         .ContactUs{
             .C-form{
                 .container{
@@ -505,7 +508,8 @@ and (max-device-width : 736px) {
     .mapp{
         padding-top: 40px;
         padding-bottom: 40px;
-        background:linear-gradient(rgba(90, 89, 88, .3) 100%);
+        background:linear-gradient(rgba(90, 89, 88, .3) 100%),url('../assets/images/business_landscape.jpg') center no-repeat ;
+        background-size:cover;
         .ContactUs{
             .C-form{
                 .container{
