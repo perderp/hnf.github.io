@@ -1,7 +1,7 @@
 
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
-        $('.navbar').css('background-color', '#FFF4E5');
+        $('.navbar').css('background-color', '#404040');
         $('.navbar').css('transition', '450ms');
     } else {
         $('.navbar').css('background-color', 'transparent');
@@ -13,8 +13,8 @@ $(window).scroll(function() {
     
 });
 $( ".navbar-toggler" ).click(function() {
-        $('.navbar').css('background-color', '#FFF4E5');
-        $('.navbar').css('transition', '450ms');
+        $('.navbar').css('background-color', '#404040');
+        $('.navbar').css('transition', '200ms');
 
   });
 
