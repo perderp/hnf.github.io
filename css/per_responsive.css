@@ -87,6 +87,109 @@
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
   .services {
     background: none;
+    padding: 4% 0;
+  }
+  .services .container-fluid .Feature-title {
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    justify-items: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  .services .container-fluid .row {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .services .container-fluid .row .col-lg-4 .serviceBox {
+    text-align: center;
+    padding-bottom: 40px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .services .container-fluid .row .col-lg-4 .serviceBox .serviceIcon {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    background: #FA9649;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  .services .container-fluid .row .col-lg-4 .serviceBox .serviceIcon .s_img {
+    height: 100px;
+    width: auto;
+    position: relative;
+    top: -4px;
+  }
+  .services .container-fluid .row .col-lg-4 .serviceBox .serviceIcon::before {
+    content: "";
+    border: 4px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    opacity: 1;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .services .container-fluid .row .col-lg-4 .serviceBox .serviceIcon::after {
+    content: "";
+    border-bottom: 15px solid transparent;
+    border-left: 25px solid #FA9649;
+    border-top: 15px solid transparent;
+    position: absolute;
+    top: 43px;
+    right: -19px;
+  }
+  .services .container-fluid .row .col-lg-4 .serviceBox .serviceContent {
+    height: 100%;
+    width: auto;
+    padding: 18px 20px;
+    background: #FA9649;
+    border-radius: 15px;
+    color: white;
+    position: relative;
+    margin-left: 50px;
+    top: 21px;
+  }
+  .services .container-fluid .row .col-lg-4 .serviceBox .serviceContent .title {
+    font-size: 19px;
+  }
+  .services .container-fluid .row .col-lg-4 .serviceBox .serviceContent::before {
+    content: "";
+    border: 4px solid white;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  .services .container-fluid .row .col-lg-4 .serviceBox:hover .serviceIcon::before {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+  }
+  .services .container-fluid .row .col-lg-4 .serviceBox:hover .serviceContent::before {
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    opacity: 1;
   }
   .company-profile .container .cp_r2 {
     padding-top: 40px;
