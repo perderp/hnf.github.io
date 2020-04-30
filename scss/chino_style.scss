@@ -129,6 +129,13 @@ sidebar{
                         color: white;
                         margin-bottom: 30px;
                         position: relative;
+                        .s_img{
+                            height:100px;
+                            width:auto;
+                            position:relative;
+                            top:-4px;
+                        }
+
                         &::before{
                             content: "";
                             border: 4px solid white;
@@ -161,6 +168,11 @@ sidebar{
                         position: relative;
                         margin-left:50px;
                         top:21px;
+                        .title{
+                            position:relative;
+                            top:8px;
+                            font-size:30px;
+                        }
                         &::before{
                             content: "";
                             border: 4px solid white;
